@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+
+   
+}
+.container{
+    display:flex;
+    flex-direction: column;
+}
+header{
+    background-color: hotpink;
+    color: white;
+    text-align: center;
+    
+    margin-bottom: 1px;
+
+}
+
+nav{
+    background-color: cyan;
+    display: flex;
+    padding: 0.9px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+   
+}
+
+#content{
+    flex: 0.5;
+    padding: 0.5rem;
+}
+
+section{
+    padding: .5rem;
+    margin-bottom: 0.5rem;
+}
+
+section#home h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+    padding: 0.5rem;
+    margin-bottom: 0.5px;
+    }
